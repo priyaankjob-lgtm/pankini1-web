@@ -187,7 +187,23 @@
   .trole{font-size:12px;color:var(--pink);font-weight:500;text-transform:uppercase;letter-spacing:.1em;margin-bottom:10px}
   .tcard p{font-size:14px;color:var(--ink-soft);line-height:1.6}
 
-  /* DONATE */
+  /* DONATE PAGE */
+  .donate-page{background:var(--ivory);padding:100px 5vw}
+  .donate-page-inner{max-width:700px;margin:0 auto;text-align:center}
+  .donate-coming{background:#fff;border:1px solid var(--border);border-radius:24px;padding:56px 48px;margin-top:44px;position:relative;overflow:hidden}
+  .donate-coming::before{content:'💜';position:absolute;top:-20px;right:-10px;font-size:120px;opacity:.05;line-height:1}
+  .donate-coming h3{font-family:'Cormorant Garamond',serif;font-size:28px;font-weight:700;color:var(--ink);margin-bottom:14px}
+  .donate-coming p{font-size:16px;color:var(--ink-mid);line-height:1.75;margin-bottom:28px}
+  .donate-options{display:flex;flex-direction:column;gap:14px;margin-bottom:32px;text-align:left}
+  .dopt{display:flex;align-items:flex-start;gap:16px;padding:18px 22px;background:var(--purple-pale);border:1px solid rgba(107,47,160,.15);border-radius:14px}
+  .dopt-icon{font-size:26px;flex-shrink:0;margin-top:2px}
+  .dopt-text h4{font-size:15px;font-weight:500;color:var(--ink);margin-bottom:3px}
+  .dopt-text p{font-size:14px;color:var(--ink-soft);line-height:1.5}
+  .dopt-text a{color:var(--purple-mid);font-weight:500;text-decoration:none}
+  .donate-80g-note{background:linear-gradient(135deg,var(--purple-pale),var(--pink-pale));border:1px solid rgba(232,68,154,.2);border-radius:12px;padding:16px 20px;font-size:14px;color:var(--ink-mid);line-height:1.6;margin-top:20px}
+  .donate-80g-note strong{color:var(--purple-deep)}
+
+  /* DONATE SECTION (hero cta) */
   .donate{background:linear-gradient(135deg,var(--purple-deep) 0%,#7B2FBE 50%,#C0399C 100%);color:#fff;padding:100px 5vw;text-align:center;position:relative;overflow:hidden}
   .donate::after{content:'';position:absolute;bottom:-120px;right:-120px;width:400px;height:400px;border-radius:50%;background:rgba(255,107,174,.15);pointer-events:none}
   .donate .eyebrow{color:var(--pink-light)}
@@ -235,6 +251,7 @@
     .fgrid{grid-template-columns:1fr;gap:28px}
     .fbot{flex-direction:column;gap:10px;text-align:center}
     nav ul{display:none}
+    .donate-coming{padding:36px 24px}
   }
 </style>
 </head>
@@ -254,7 +271,7 @@
     <li><a href="#impact">Impact</a></li>
     <li><a href="#approach">Approach</a></li>
     <li><a href="#team">About Us</a></li>
-    <li><a href="#donate" class="btn-dn">Donate Now</a></li>
+    <li><a href="#donate-page" class="btn-dn">Donate Now</a></li>
   </ul>
 </nav>
 
@@ -268,7 +285,7 @@
     <div class="hero-tagline">— पंखिनी फाउंडेशन —</div>
     <p class="hero-desc">Pankhini Foundation gives wings to girls who dare to dream and strength to women who rise — through emotional wellbeing, education technology, and legal empowerment.</p>
     <div class="hero-ctas">
-      <a href="#donate" class="btn-primary">💜 Support Our Mission</a>
+      <a href="#donate-page" class="btn-primary">💜 Support Our Mission</a>
       <a href="#programmes" class="btn-secondary">Our Programmes →</a>
     </div>
   </div>
@@ -295,7 +312,8 @@
   <div class="tsep"></div>
   <div class="titems">
     <div class="titem">🏛️ Section 8 Company</div>
-    <div class="titem">📋 80G</div>
+    <div class="titem">✅ 12A Registered</div>
+    <div class="titem">📋 80G Approved</div>
     <div class="titem">📍 Ghaziabad, NCR</div>
     <div class="titem">🎯 Focus: Uttar Pradesh</div>
     <div class="titem">🌸 Launching June 2026</div>
@@ -430,7 +448,7 @@
     <div class="istat"><span class="inum">3</span><div class="ilbl">Flagship programmes — emotional, educational &amp; legal</div></div>
     <div class="istat"><span class="inum">2</span><div class="ilbl">Focus groups — adolescent girls AND adult women</div></div>
     <div class="istat"><span class="inum">UP</span><div class="ilbl">Primary focus — India's largest state, highest need</div></div>
-    <div class="istat"><span class="inum">80G</span><div class="ilbl">Tax benefit for donors — application filed 2026</div></div>
+    <div class="istat"><span class="inum">80G</span><div class="ilbl">Tax benefit for donors — approved May 2026</div></div>
   </div>
 </section>
 
@@ -490,7 +508,7 @@
     <p class="sdesc mx">Whether you give time, expertise, or resources — every contribution helps a girl spread her wings and a woman find her strength.</p>
   </div>
   <div class="invgrid">
-    <a href="#donate" class="icard">
+    <a href="#donate-page" class="icard">
       <div class="iicon">💜</div>
       <h3>Donate</h3>
       <p>Fund programme delivery, community facilitators, and technology development. 80G tax benefits available for Indian donors.</p>
@@ -539,23 +557,41 @@
   </div>
 </section>
 
-<!-- DONATE -->
-<section class="donate" id="donate">
-  <span class="eyebrow">Support Our Mission</span>
-  <h2 class="stitle">Give a Girl Her Wings.<br><em style="color:#F9A8D4;">Give a Woman Her Voice.</em></h2>
-  <p class="sdesc">Your donation goes directly to programme delivery, community facilitators, and technology development. Every rupee is tracked and reported transparently.</p>
-  <div class="amounts">
-    <button class="abtn">₹500</button>
-    <button class="abtn active">₹1,000</button>
-    <button class="abtn">₹2,500</button>
-    <button class="abtn">₹5,000</button>
-    <button class="abtn">Custom</button>
+<!-- DONATE PAGE SECTION -->
+<section class="donate-page" id="donate-page">
+  <div class="donate-page-inner">
+    <span class="eyebrow">Support Our Mission</span>
+    <h2 class="stitle">Give a Girl Her Wings.<br><em>Give a Woman Her Voice.</em></h2>
+    <p class="sdesc mx">Your donation goes directly to programme delivery, community facilitators, and technology development. Every rupee is tracked and reported transparently.</p>
+
+    <div class="donate-coming">
+      <h3>Online Donations Coming Very Soon 🕊️</h3>
+      <p>We are setting up our secure online donation platform. In the meantime, you can support Pankhini Foundation directly — every contribution makes a real difference.</p>
+
+      <div class="donate-options">
+        <div class="dopt">
+          <div class="dopt-icon">📧</div>
+          <div class="dopt-text">
+            <h4>Write to Us</h4>
+            <p>Email us at <a href="mailto:connect@pankhinifoundation.org">connect@pankhinifoundation.org</a> and we will share bank transfer details and a donation receipt within 24 hours.</p>
+          </div>
+        </div>
+        <div class="dopt">
+          <div class="dopt-icon">🤝</div>
+          <div class="dopt-text">
+            <h4>CSR &amp; Institutional Partners</h4>
+            <p>Foundations, corporates, and grant-makers — write to us at <a href="mailto:connect@pankhinifoundation.org">connect@pankhinifoundation.org</a> for our programme brief and impact framework.</p>
+          </div>
+        </div>
+      </div>
+
+      <a href="mailto:connect@pankhinifoundation.org" class="btn-primary" style="display:inline-flex;margin:0 auto;">💜 Contact Us to Donate</a>
+
+      <div class="donate-80g-note">
+        <strong>80G Tax Exemption Available</strong> — All donations to Pankhini Foundation are eligible for 80G deduction under the Income Tax Act. You will receive an official receipt with our registration details. · URN: <strong>AARCP0321PF20261</strong>
+      </div>
+    </div>
   </div>
-  <div class="dbtns">
-    <a href="mailto:connect@pankhinifoundation.org" class="bwhite">💜 Donate Now</a>
-    <a href="mailto:connect@pankhinifoundation.org" class="bghost">📧 Write to Us</a>
-  </div>
-  <p class="dnote">80G tax exemption available · Section 8 NGO · Ghaziabad, UP · pankhinifoundation.org</p>
 </section>
 
 <!-- FOOTER -->
@@ -571,7 +607,9 @@
       <div class="freg">
         <strong>Registration Details</strong><br>
         Section 8 Company · MCA Registered · 2026<br>
-        80G<br>
+        12A URN: AARCP0321PE20261<br>
+        80G URN: AARCP0321PF20261<br>
+        PAN: AARCP0321P<br>
         Registered Office: Ghaziabad, Uttar Pradesh<br>
         connect@pankhinifoundation.org
       </div>
@@ -598,7 +636,7 @@
       <ul>
         <li><a href="mailto:connect@pankhinifoundation.org">connect@pankhinifoundation.org</a></li>
         <li><a href="https://pankhinifoundation.org">pankhinifoundation.org</a></li>
-        <li><a href="#donate">Donate</a></li>
+        <li><a href="#donate-page">Donate</a></li>
         <li><a href="#get-involved">Partner with Us</a></li>
       </ul>
     </div>
@@ -619,7 +657,7 @@
   const obs=new IntersectionObserver(entries=>{
     entries.forEach(e=>{if(e.isIntersecting){e.target.style.opacity='1';e.target.style.transform='translateY(0)'}});
   },{threshold:.08});
-  document.querySelectorAll('.pcard,.icard,.tcard,.istat,.astep,.srow,.mstat').forEach(el=>{
+  document.querySelectorAll('.pcard,.icard,.tcard,.istat,.astep,.srow,.mstat,.dopt').forEach(el=>{
     el.style.opacity='0';el.style.transform='translateY(18px)';
     el.style.transition='opacity .5s ease,transform .5s ease';
     obs.observe(el);
