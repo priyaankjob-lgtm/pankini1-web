@@ -26,7 +26,6 @@
   *{margin:0;padding:0;box-sizing:border-box}
   html{scroll-behavior:smooth}
   body{background:var(--cream);color:var(--ink);font-family:'DM Sans',sans-serif;font-size:17px;line-height:1.7;overflow-x:hidden}
-
   /* NAV */
   nav{position:sticky;top:0;z-index:100;background:rgba(253,248,245,0.96);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);padding:0 5vw;display:flex;align-items:center;justify-content:space-between;height:68px}
   .nav-logo{display:flex;align-items:center;gap:10px;text-decoration:none}
@@ -38,7 +37,6 @@
   .nav-links a:hover{color:var(--purple-mid)}
   .btn-dn{background:linear-gradient(135deg,var(--purple-mid),var(--pink))!important;color:#fff!important;padding:9px 22px;border-radius:100px;font-size:14px!important;font-weight:500!important;box-shadow:0 4px 16px rgba(107,47,160,.25)}
   .btn-dn:hover{opacity:.88!important}
-
   /* HERO */
   .hero{min-height:90vh;display:grid;grid-template-columns:1fr 1fr;align-items:center;padding:80px 5vw 60px;gap:60px;position:relative;overflow:hidden;background:linear-gradient(150deg,var(--cream) 0%,var(--ivory) 60%,#F6EEFF 100%)}
   .blob{position:absolute;border-radius:50%;pointer-events:none}
@@ -57,7 +55,6 @@
   .btn-primary:hover{opacity:.88;transform:translateY(-2px)}
   .btn-secondary{background:transparent;color:var(--ink);padding:14px 32px;border-radius:100px;font-size:15px;font-weight:500;text-decoration:none;display:inline-flex;align-items:center;gap:8px;border:2px solid var(--border);transition:border-color .2s,transform .15s}
   .btn-secondary:hover{border-color:var(--purple-light);transform:translateY(-2px)}
-
   /* Hero visual */
   .hero-visual{position:relative;z-index:1;animation:fadeUp .5s ease .15s both}
   .hcard{background:linear-gradient(135deg,var(--purple-deep) 0%,#6B2FA0 60%,#9B3EC4 100%);border-radius:28px;padding:44px 40px;color:#fff;position:relative;overflow:hidden;min-height:360px;display:flex;flex-direction:column;justify-content:flex-end;box-shadow:0 24px 80px rgba(61,26,110,.3)}
@@ -71,14 +68,12 @@
   .hpill{background:#fff;border:1px solid var(--border);border-radius:100px;padding:9px 16px;display:flex;align-items:center;gap:8px;font-size:13px;font-weight:500;color:var(--ink-mid);box-shadow:0 4px 16px rgba(0,0,0,.06);white-space:nowrap}
   .dot{width:8px;height:8px;border-radius:50%}
   .dp{background:var(--purple-mid)}.dk{background:var(--pink)}.dg{background:#52B788}
-
   /* TRUST BAR */
   .trust{border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:18px 5vw;display:flex;align-items:center;gap:36px;background:#fff;overflow-x:auto}
   .tlabel{font-size:11px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-soft);white-space:nowrap;flex-shrink:0}
   .tsep{width:1px;height:22px;background:var(--border);flex-shrink:0}
   .titems{display:flex;gap:32px;align-items:center}
   .titem{display:flex;align-items:center;gap:7px;font-size:13px;color:var(--ink-mid);font-weight:500;white-space:nowrap}
-
   /* SECTIONS */
   .section{padding:100px 5vw}
   .eyebrow{display:inline-block;font-size:12px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:var(--pink);margin-bottom:14px}
@@ -87,7 +82,6 @@
   .sdesc{font-size:18px;color:var(--ink-mid);font-weight:300;max-width:580px;line-height:1.75}
   .center{text-align:center}
   .mx{margin:0 auto}
-
   /* MISSION */
   .mission{background:#fff;border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
   .mission-inner{display:grid;grid-template-columns:1fr 1fr;min-height:520px}
@@ -106,7 +100,6 @@
   .mstat{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.15);border-radius:14px;padding:18px}
   .mnum{font-family:'Cormorant Garamond',serif;font-size:36px;font-weight:700;color:var(--pink-light);line-height:1;margin-bottom:4px}
   .mlbl{font-size:13px;color:rgba(255,255,255,.68);line-height:1.5}
-
   /* PROGRAMMES */
   .programmes{background:var(--ivory)}
   .pgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:56px}
@@ -126,7 +119,6 @@
   .pfeats li{display:flex;align-items:flex-start;gap:8px;font-size:14px;color:var(--ink-mid);line-height:1.5}
   .pfeats li::before{content:'→';color:var(--pink);font-weight:700;flex-shrink:0;margin-top:1px}
   .ptag{display:inline-block;font-size:11px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;padding:4px 12px;border-radius:100px;border:1px solid var(--border);color:var(--ink-soft);align-self:flex-start}
-
   /* IMPACT */
   .impact{background:var(--ink);color:#fff}
   .impact .eyebrow{color:var(--pink-light)}
@@ -136,7 +128,6 @@
   .istat:hover{background:#260D45}
   .inum{font-family:'Cormorant Garamond',serif;font-size:50px;font-weight:700;color:var(--pink-light);line-height:1;margin-bottom:8px;display:block}
   .ilbl{font-size:14px;color:rgba(255,255,255,.58);line-height:1.5}
-
   /* QUOTE */
   .quote{background:linear-gradient(135deg,var(--purple-deep) 0%,#8B2FC4 100%);color:#fff;padding:80px 5vw;text-align:center;position:relative;overflow:hidden}
   .quote::before{content:'"';font-family:'Cormorant Garamond',serif;font-size:320px;position:absolute;top:-80px;left:3%;opacity:.07;line-height:1}
@@ -144,7 +135,6 @@
   .qtext{font-family:'Cormorant Garamond',serif;font-size:clamp(22px,3vw,38px);font-style:italic;font-weight:400;max-width:800px;margin:0 auto 22px;line-height:1.4;position:relative}
   .qattr{font-size:14px;opacity:.72;letter-spacing:.08em;font-weight:500}
   .qslogan{font-family:'Satisfy',cursive;font-size:22px;color:var(--pink-light);margin-top:18px;display:block}
-
   /* APPROACH */
   .approach{background:#fff}
   .apinner{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}
@@ -163,7 +153,6 @@
   .pbox p:first-child{font-size:14px;font-weight:500;color:var(--ink);margin-bottom:5px}
   .pbox p:last-child{font-size:13px;color:var(--ink-soft);line-height:1.6}
   .pbox a{color:var(--purple-mid);text-decoration:none;font-weight:500}
-
   /* INVOLVED */
   .involved{background:var(--ivory)}
   .invgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:54px}
@@ -174,19 +163,30 @@
   .icard p{font-size:15px;color:var(--ink-soft);line-height:1.65;flex:1}
   .ilink{margin-top:20px;font-size:14px;font-weight:500;color:var(--purple-mid);display:flex;align-items:center;gap:6px;text-decoration:none;transition:gap .2s}
   .ilink:hover{gap:10px}
-
-  /* TEAM */
+  /* TEAM / FOUNDERS */
   .team{background:#fff;border-top:1px solid var(--border)}
-  .tgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-top:54px}
-  .tcard{text-align:center}
+  .founders{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:54px;max-width:1080px;margin-left:auto;margin-right:auto}
+  .fpcard{background:linear-gradient(180deg,var(--ivory) 0%,#fff 140px);border:1px solid var(--border);border-radius:26px;padding:44px 38px 38px;display:flex;flex-direction:column;align-items:center;transition:transform .3s,box-shadow .3s}
+  .fpcard:hover{transform:translateY(-5px);box-shadow:0 20px 60px rgba(61,26,110,.1)}
+  .fphoto{width:150px;height:150px;border-radius:50%;position:relative;overflow:hidden;flex-shrink:0;margin-bottom:20px;background:var(--purple-pale);display:flex;align-items:center;justify-content:center;font-family:'Cormorant Garamond',serif;font-size:48px;font-weight:700;color:var(--purple-mid);border:4px solid #fff;box-shadow:0 0 0 3px var(--pink-light),0 12px 32px rgba(61,26,110,.18)}
+  .fphoto img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+  .fpcard h3{font-family:'Cormorant Garamond',serif;font-size:27px;font-weight:700;color:var(--ink);margin-bottom:5px;text-align:center}
+  .fpcard .trole{font-size:12px;color:var(--pink);font-weight:500;text-transform:uppercase;letter-spacing:.1em;margin-bottom:20px;text-align:center;line-height:1.6}
+  .fbio{font-size:14.5px;color:var(--ink-mid);line-height:1.75;text-align:left;margin-bottom:22px}
+  .fbio p{margin-bottom:12px}
+  .fbio p:last-child{margin-bottom:0}
+  .fx-label{font-size:11px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:12px;align-self:flex-start}
+  .fchips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:26px;justify-content:flex-start;align-self:stretch}
+  .fchip{background:var(--purple-pale);border:1px solid rgba(107,47,160,.15);color:var(--purple-mid);font-size:12px;font-weight:500;padding:5px 13px;border-radius:100px;white-space:nowrap}
+  .fli{margin-top:auto;display:inline-flex;align-items:center;gap:8px;background:transparent;border:2px solid var(--border);color:var(--ink-mid);padding:10px 26px;border-radius:100px;font-size:14px;font-weight:500;text-decoration:none;transition:border-color .2s,color .2s,transform .15s}
+  .fli:hover{border-color:var(--purple-light);color:var(--purple-mid);transform:translateY(-2px)}
+  .advisory-wrap{max-width:640px;margin:44px auto 0}
+  .tcard{text-align:center;background:var(--ivory);border:1px solid var(--border);border-radius:22px;padding:36px 34px}
   .tav{width:88px;height:88px;border-radius:50%;margin:0 auto 14px;display:flex;align-items:center;justify-content:center;font-size:30px;font-weight:700;font-family:'Cormorant Garamond',serif}
-  .av1{background:var(--purple-pale);color:var(--purple-mid)}
-  .av2{background:var(--pink-pale);color:var(--pink)}
   .av3{background:#EEF0FC;color:#4A52B8}
   .tcard h3{font-family:'Cormorant Garamond',serif;font-size:20px;font-weight:700;color:var(--ink);margin-bottom:4px}
   .trole{font-size:12px;color:var(--pink);font-weight:500;text-transform:uppercase;letter-spacing:.1em;margin-bottom:10px}
   .tcard p{font-size:14px;color:var(--ink-soft);line-height:1.6}
-
   /* DONATE PAGE */
   .donate-page{background:var(--ivory);padding:100px 5vw}
   .donate-page-inner{max-width:700px;margin:0 auto;text-align:center}
@@ -202,7 +202,6 @@
   .dopt-text a{color:var(--purple-mid);font-weight:500;text-decoration:none}
   .donate-80g-note{background:linear-gradient(135deg,var(--purple-pale),var(--pink-pale));border:1px solid rgba(232,68,154,.2);border-radius:12px;padding:16px 20px;font-size:14px;color:var(--ink-mid);line-height:1.6;margin-top:20px}
   .donate-80g-note strong{color:var(--purple-deep)}
-
   /* DONATE SECTION (hero cta) */
   .donate{background:linear-gradient(135deg,var(--purple-deep) 0%,#7B2FBE 50%,#C0399C 100%);color:#fff;padding:100px 5vw;text-align:center;position:relative;overflow:hidden}
   .donate::after{content:'';position:absolute;bottom:-120px;right:-120px;width:400px;height:400px;border-radius:50%;background:rgba(255,107,174,.15);pointer-events:none}
@@ -218,7 +217,6 @@
   .bghost{background:transparent;color:#fff;padding:14px 36px;border-radius:100px;font-size:15px;font-weight:500;text-decoration:none;display:inline-flex;align-items:center;gap:8px;border:2px solid rgba(255,255,255,.35);transition:background .2s,transform .15s}
   .bghost:hover{background:rgba(255,255,255,.1);transform:translateY(-2px)}
   .dnote{font-size:13px;color:rgba(255,255,255,.42);margin-top:20px;position:relative;z-index:1}
-
   /* FOOTER */
   footer{background:var(--ink);color:rgba(255,255,255,.55);padding:60px 5vw 32px}
   .fgrid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:48px;margin-bottom:48px}
@@ -234,9 +232,7 @@
   .fbot a{color:rgba(255,255,255,.35);text-decoration:none}
   .fbot a:hover{color:rgba(255,255,255,.65)}
   .fslogan{font-family:'Satisfy',cursive;color:var(--pink-light);font-size:16px;margin-top:10px;display:block}
-
   @keyframes fadeUp{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:translateY(0)}}
-
   @media(max-width:900px){
     .hero{grid-template-columns:1fr;padding:56px 5vw 40px;min-height:auto}
     .hero-visual,.hpills{display:none}
@@ -247,7 +243,8 @@
     .igrid{grid-template-columns:1fr 1fr}
     .apinner{grid-template-columns:1fr}
     .invgrid{grid-template-columns:1fr}
-    .tgrid{grid-template-columns:1fr}
+    .founders{grid-template-columns:1fr}
+    .fpcard{padding:36px 24px 30px}
     .fgrid{grid-template-columns:1fr;gap:28px}
     .fbot{flex-direction:column;gap:10px;text-align:center}
     nav ul{display:none}
@@ -256,7 +253,6 @@
 </style>
 </head>
 <body>
-
 <!-- NAV -->
 <nav>
   <a class="nav-logo" href="#">
@@ -274,7 +270,6 @@
     <li><a href="#donate-page" class="btn-dn">Donate Now</a></li>
   </ul>
 </nav>
-
 <!-- HERO -->
 <section class="hero">
   <div class="blob blob1"></div>
@@ -305,7 +300,6 @@
     </div>
   </div>
 </section>
-
 <!-- TRUST BAR -->
 <div class="trust">
   <span class="tlabel">Recognised &amp; Registered</span>
@@ -319,7 +313,6 @@
     <div class="titem">🌸 Launching June 2026</div>
   </div>
 </div>
-
 <!-- MISSION -->
 <section class="mission">
   <div class="mission-inner">
@@ -364,7 +357,6 @@
     </div>
   </div>
 </section>
-
 <!-- PROGRAMMES -->
 <section class="section programmes" id="programmes">
   <div class="center">
@@ -429,7 +421,6 @@
     </div>
   </div>
 </section>
-
 <!-- QUOTE -->
 <div class="quote">
   <span class="qbird">🕊️</span>
@@ -437,7 +428,6 @@
   <p class="qattr">— Pankhini Foundation, Founding Vision</p>
   <span class="qslogan">Wings of Change, Lives of Strength</span>
 </div>
-
 <!-- IMPACT -->
 <section class="section impact" id="impact">
   <div class="center">
@@ -451,7 +441,6 @@
     <div class="istat"><span class="inum">80G</span><div class="ilbl">Tax benefit for donors — approved May 2026</div></div>
   </div>
 </section>
-
 <!-- APPROACH -->
 <section class="section approach" id="approach">
   <div class="apinner">
@@ -499,7 +488,6 @@
     </div>
   </div>
 </section>
-
 <!-- INVOLVED -->
 <section class="section involved" id="get-involved">
   <div class="center">
@@ -528,26 +516,66 @@
     </a>
   </div>
 </section>
-
 <!-- TEAM -->
 <section class="section team" id="team">
   <div class="center">
     <span class="eyebrow">The People Behind Pankhini</span>
     <h2 class="stitle">Founded with Purpose,<br><em>Led with Passion</em></h2>
   </div>
-  <div class="tgrid">
-    <div class="tcard">
-      <div class="tav av1">P</div>
-      <h3>Parul</h3>
+  <div class="founders">
+    <!-- FOUNDER -->
+    <div class="fpcard">
+      <div class="fphoto">P<img src="parul-gupta.jpg" alt="Parul Gupta — Founder &amp; Director, Pankhini Foundation" onerror="this.style.display='none'"></div>
+      <h3>Parul Gupta</h3>
       <div class="trole">Founder &amp; Director</div>
-      <p>Visionary founder of Pankhini Foundation, driven by a deep commitment to girls' and women's empowerment in UP and NCR. Leads the organisation's mission, strategy, and community partnerships.</p>
+      <div class="fbio">
+        <p>Parul Gupta is the Founder and Director of Pankhini Foundation, where she leads the organisation's vision to empower girls and women through education, technology, and community-driven initiatives. She believes that every girl deserves the opportunity to learn, every woman deserves the confidence to lead, and every community deserves equal access to opportunities.</p>
+        <p>With a strong background in digital content creation, communication, and social impact storytelling, Parul has spent years designing meaningful campaigns that create awareness, inspire action, and drive measurable change. At Pankhini, she oversees organisational strategy, programme development, partnerships, fundraising, and digital outreach, ensuring that every initiative creates sustainable impact.</p>
+        <p>Her vision is to combine technology with grassroots action, making quality education, emotional wellbeing, and legal awareness accessible to underserved girls and women across Uttar Pradesh and NCR.</p>
+      </div>
+      <span class="fx-label">Areas of Expertise</span>
+      <div class="fchips">
+        <span class="fchip">Social Impact Strategy</span>
+        <span class="fchip">Women's &amp; Girls' Empowerment</span>
+        <span class="fchip">Digital Content &amp; Communication</span>
+        <span class="fchip">Education &amp; Community Outreach</span>
+        <span class="fchip">Partnership Development</span>
+        <span class="fchip">Technology for Social Good</span>
+      </div>
+      <a class="fli" href="https://www.linkedin.com/in/parul-gupta-0002499b/" target="_blank" rel="noopener">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-5c0-2.76-2.24-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.27c-.97 0-1.75-.79-1.75-1.76s.78-1.75 1.75-1.75 1.75.78 1.75 1.75-.78 1.76-1.75 1.76zm13.5 12.27h-3v-5.6c0-3.37-4-3.11-4 0v5.6h-3v-11h3v1.77c1.4-2.59 7-2.78 7 2.48v6.75z"/></svg>
+        Connect on LinkedIn
+      </a>
     </div>
-    <div class="tcard">
-      <div class="tav av2">J</div>
-      <h3>Jyoti</h3>
-      <div class="trole">Co-Founder &amp; Legal Head</div>
-      <p>LLM-qualified advocate with expertise in gender justice and women's rights. Leads NyayaSetu — bridging girls and women to legal empowerment through technology and community awareness.</p>
+    <!-- CO-FOUNDER -->
+    <div class="fpcard">
+      <div class="fphoto">J<img src="jyoti-shankar.jpg" alt="Adv. Jyoti Shankar — Co-Founder &amp; Legal Head, Pankhini Foundation" onerror="this.style.display='none'"></div>
+      <h3>Adv. Jyoti Shankar</h3>
+      <div class="trole">Co-Founder, Legal Head &amp;<br>Director – NyayaSetu</div>
+      <div class="fbio">
+        <p>Advocate Jyoti Shankar is the Co-Founder of Pankhini Foundation, a practising lawyer, social impact professional, and the driving force behind NyayaSetu, Pankhini's flagship legal empowerment initiative. She firmly believes that justice begins with awareness, and that every girl and woman should understand her legal rights before she ever needs to defend them.</p>
+        <p>She holds B.Sc. and M.Sc. (Zoology) degrees and combines her multidisciplinary academic background with legal expertise to create accessible, technology-enabled legal support systems. As the Founder of Margyam AI, she also works at the intersection of artificial intelligence, law, governance, and public service.</p>
+        <p>Throughout her career, Jyoti has contributed to several prestigious government and national initiatives, working with organisations including Kailash Satyarthi Foundation, Northern Railway, the Ministry of Culture, Azadi Ka Amrit Mahotsav, NHPC, and RITES.</p>
+        <p>At Pankhini Foundation, she leads legal awareness programmes, women's rights advocacy, policy engagement, legal aid initiatives, and AI-powered legal innovation. Through NyayaSetu, she is committed to making legal information simple, accessible, and actionable for every woman — bridging the gap between the law and those who need it the most.</p>
+      </div>
+      <span class="fx-label">Areas of Expertise</span>
+      <div class="fchips">
+        <span class="fchip">Practising Advocate</span>
+        <span class="fchip">Women's Rights &amp; Gender Justice</span>
+        <span class="fchip">Legal Aid &amp; Community Legal Awareness</span>
+        <span class="fchip">Public Policy &amp; Government Engagement</span>
+        <span class="fchip">AI for Legal Empowerment</span>
+        <span class="fchip">Governance &amp; Social Innovation</span>
+        <span class="fchip">Technology-enabled Access to Justice</span>
+      </div>
+      <a class="fli" href="https://www.linkedin.com/in/jyoti-shankar-b4740220/" target="_blank" rel="noopener">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-5c0-2.76-2.24-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.27c-.97 0-1.75-.79-1.75-1.76s.78-1.75 1.75-1.75 1.75.78 1.75 1.75-.78 1.76-1.75 1.76zm13.5 12.27h-3v-5.6c0-3.37-4-3.11-4 0v5.6h-3v-11h3v1.77c1.4-2.59 7-2.78 7 2.48v6.75z"/></svg>
+        Connect on LinkedIn
+      </a>
     </div>
+  </div>
+  <!-- ADVISORY -->
+  <div class="advisory-wrap">
     <div class="tcard">
       <div class="tav av3">★</div>
       <h3>Advisory Board</h3>
@@ -556,18 +584,15 @@
     </div>
   </div>
 </section>
-
 <!-- DONATE PAGE SECTION -->
 <section class="donate-page" id="donate-page">
   <div class="donate-page-inner">
     <span class="eyebrow">Support Our Mission</span>
     <h2 class="stitle">Give a Girl Her Wings.<br><em>Give a Woman Her Voice.</em></h2>
     <p class="sdesc mx">Your donation goes directly to programme delivery, community facilitators, and technology development. Every rupee is tracked and reported transparently.</p>
-
     <div class="donate-coming">
       <h3>Online Donations Coming Very Soon 🕊️</h3>
       <p>We are setting up our secure online donation platform. In the meantime, you can support Pankhini Foundation directly — every contribution makes a real difference.</p>
-
       <div class="donate-options">
         <div class="dopt">
           <div class="dopt-icon">📧</div>
@@ -584,16 +609,13 @@
           </div>
         </div>
       </div>
-
       <a href="mailto:connect@pankhinifoundation.org" class="btn-primary" style="display:inline-flex;margin:0 auto;">💜 Contact Us to Donate</a>
-
       <div class="donate-80g-note">
         <strong>80G Tax Exemption Available</strong> — All donations to Pankhini Foundation are eligible for 80G deduction under the Income Tax Act. You will receive an official receipt with our registration details. · URN: <strong>AARCP0321PF20261</strong>
       </div>
     </div>
   </div>
 </section>
-
 <!-- FOOTER -->
 <footer id="contact">
   <div class="fgrid">
@@ -646,7 +668,6 @@
     <span><a href="#">Privacy Policy</a> · <a href="#">Terms</a> · <a href="#">Annual Report</a></span>
   </div>
 </footer>
-
 <script>
   document.querySelectorAll('.abtn').forEach(b=>{
     b.addEventListener('click',()=>{
@@ -657,7 +678,7 @@
   const obs=new IntersectionObserver(entries=>{
     entries.forEach(e=>{if(e.isIntersecting){e.target.style.opacity='1';e.target.style.transform='translateY(0)'}});
   },{threshold:.08});
-  document.querySelectorAll('.pcard,.icard,.tcard,.istat,.astep,.srow,.mstat,.dopt').forEach(el=>{
+  document.querySelectorAll('.pcard,.icard,.fpcard,.tcard,.istat,.astep,.srow,.mstat,.dopt').forEach(el=>{
     el.style.opacity='0';el.style.transform='translateY(18px)';
     el.style.transition='opacity .5s ease,transform .5s ease';
     obs.observe(el);
